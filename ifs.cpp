@@ -10,7 +10,6 @@ using namespace cv;
 
 //compilar con g++ -I/usr/local/Cellar/opencv/4.2.0_1/include/opencv4/opencv -I/usr/local/Cellar/opencv/4.2.0_1/include/opencv4 -L/usr/local/Cellar/opencv/4.2.0_1/lib -lopencv_gapi -lopencv_stitching -lopencv_aruco -lopencv_bgsegm -lopencv_bioinspired -lopencv_ccalib -lopencv_dnn_objdetect -lopencv_dnn_superres -lopencv_dpm -lopencv_highgui -lopencv_face -lopencv_freetype -lopencv_fuzzy -lopencv_hfs -lopencv_img_hash -lopencv_line_descriptor -lopencv_quality -lopencv_reg -lopencv_rgbd -lopencv_saliency -lopencv_sfm -lopencv_stereo -lopencv_structured_light -lopencv_phase_unwrapping -lopencv_superres -lopencv_optflow -lopencv_surface_matching -lopencv_tracking -lopencv_datasets -lopencv_text -lopencv_dnn -lopencv_plot -lopencv_videostab -lopencv_videoio -lopencv_xfeatures2d -lopencv_shape -lopencv_ml -lopencv_ximgproc -lopencv_video -lopencv_xobjdetect -lopencv_objdetect -lopencv_calib3d -lopencv_imgcodecs -lopencv_features2d -lopencv_flann -lopencv_xphoto -lopencv_photo -lopencv_imgproc -lopencv_core -std=c++11 ifs.cpp
 
-
 string generarCadenaIfs(int numeroTab)
 {
     string temp = "";
@@ -20,7 +19,9 @@ string generarCadenaIfs(int numeroTab)
     }
     return temp;
 }
+
 string reanalizar(string cadenaFinal);
+
 void generarCadena(string &cadenaFinal, double &i)
 {
     double max = MAXIMO;
@@ -37,10 +38,11 @@ void generarCadena(string &cadenaFinal, double &i)
         }
         random = rand() % 2;
 
-        if(random){
+        if (random)
+        {
             if (cadenaFinal[i] == 'A')
             {
-                random = rand()%2;
+                random = rand() % 2;
                 if (random)
                 {
                     cadenaFinal.replace(i, 1, "(;eS)");
@@ -56,9 +58,7 @@ void generarCadena(string &cadenaFinal, double &i)
         if (cadenaFinal[i] == 'S')
         {
 
-                cadenaFinal.replace(i, 1, "(iCtSA)");
-
-
+            cadenaFinal.replace(i, 1, "(iCtSA)");
 
             parentesisSaltado++;
             i += 6;
@@ -68,36 +68,42 @@ void generarCadena(string &cadenaFinal, double &i)
     }
     cout << cadenaFinal << '\n';
 
-for(int k=0;k<4;k++)
-    cadenaFinal=reanalizar(cadenaFinal);
+    int randomcool = rand() % 5;
 
-
-
-
+    for (int k = 0; k < randomcool; k++)
+        cadenaFinal = reanalizar(cadenaFinal);
 
     cout << cadenaFinal;
 
     i += parentesisSaltado;
 }
 
-string reanalizar(string cadenaFinal){
+string reanalizar(string cadenaFinal)
+{
     int random;
-        for(int i = 0; i < cadenaFinal.size(); i++){
-        if(cadenaFinal[i] == 'A'){
-            random = rand() %2 ;
-            if(random) {
+    for (int i = 0; i < cadenaFinal.size(); i++)
+    {
+        if (cadenaFinal[i] == 'A')
+        {
+            random = rand() % 2;
+            if (random)
+            {
                 cadenaFinal.replace(i, 1, "(;eS)");
             }
-            else{
-                cadenaFinal.replace(i, 1, "");
+            else
+            {
+                cadenaFinal.replace(i, 1, ")");
             }
         }
     }
-    for(int i = 0; i < cadenaFinal.size(); i++){
-        if(cadenaFinal[i] == 'S'){
-            random = rand() %2 ;
-            if(random) {
-                cadenaFinal.replace(i, 1, "(iCtSA)");
+    for (int i = 0; i < cadenaFinal.size(); i++)
+    {
+        if (cadenaFinal[i] == 'S')
+        {
+            random = rand() % 2;
+            if (random)
+            {
+                cadenaFinal.replace(i, 1, "(iCtS)");
             }
         }
     }
@@ -110,7 +116,7 @@ void generarTxt(string &cadenaFinal, double i, Mat &image)
     unsigned char value1, value2, value3;
     int frame_width = MAXIMO;
     int frame_height = MAXIMO * 7;
-    VideoWriter video("outcpp.mp4", VideoWriter::fourcc('m', 'p', '4', 'v'), 60, Size(frame_height,frame_width));
+    VideoWriter video("outcpp2.mp4", VideoWriter::fourcc('m', 'p', '4', 'v'), 60, Size(frame_height, frame_width));
 
     int row, col = 0;
     double tabulaciones = 0;
@@ -174,9 +180,8 @@ void generarTxt(string &cadenaFinal, double i, Mat &image)
         rotate(image, image, ROTATE_90_COUNTERCLOCKWISE);
         video.write(image);
         rotate(image, image, ROTATE_90_CLOCKWISE);
-
     }
-        rotate(image, image, ROTATE_90_COUNTERCLOCKWISE);
+    rotate(image, image, ROTATE_90_COUNTERCLOCKWISE);
 
     imwrite("imagen.jpg", image);
     destroyWindow("A_good_name");
@@ -184,12 +189,11 @@ void generarTxt(string &cadenaFinal, double i, Mat &image)
 
 int main()
 {
-    Mat img(MAXIMO*7,MAXIMO, CV_8UC3, Scalar(255, 255, 255));
+    Mat img(MAXIMO * 7, MAXIMO, CV_8UC3, Scalar(255, 255, 255));
     string cadenaFinal = "iCtSA";
     double tam = 5;
     double i = tam - 1;
     generarCadena(cadenaFinal, i);
     generarTxt(cadenaFinal, i, img);
-
     int tabulaciones = 0;
 }

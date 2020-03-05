@@ -1,52 +1,46 @@
 if(C){
 	if(C){
+		if(C){
 
+		}
 	}
-	else{
+}
+else{
+	if(C){
 		if(C){
 			if(C){
-
-			}
-			else{
 				if(C){
 					if(C){
+						if(C){
 
+						}
 					}
-					else{
+				}
+				else{
+					if(C){
 						if(C){
 							if(C){
-
-							}
-							else{
 								if(C){
 									if(C){
-
-									}
-									else{
 										if(C){
 											if(C){
+
+											}
+										}
+										else{
+											if(C){
 												if(C){
-
-												}
-												else{
 													if(C){
-
-													}
-													else{
 														if(C){
-
-														}
-														else{
 															if(C){
 																if(C){
 																	if(C){
-
-																	}
-																	else{
 																		if(C){
 
 																		}
-																		else{
+																	}
+																	else{
+																		if(C){
 																			if(C){
 																				if(C){
 																					if(C){
@@ -56,250 +50,83 @@ if(C){
 																									if(C){
 																										if(C){
 																											if(C){
-
-																											}
-																											else{
 																												if(C){
 																													if(C){
 
 																													}
-																													else{
+																												}
+																											}
+																											else{
+																												if(C){
+																													if(C){
 																														if(C){
+																															if(C){
+
+																															}
+																														}
+																														else{
 																															if(C){
 
 																															}
 																															else{
 																																if(C){
-
-																																}
-																																else{
 																																	if(C){
-
-																																	}
-																																	else{
 																																		if(C){
 																																			if(C){
 																																				if(C){
-
-																																				}
-																																				else{
 																																					if(C){
 																																						if(C){
+
+																																						}
+																																						else{
 																																							if(C){
-
-																																							}
-																																							else{
 																																								if(C){
-
-																																								}
-																																								else{
 																																									if(C){
 																																										if(C){
-
-																																										}
-																																										else{
 																																											if(C){
-
-																																											}
-																																											else{
 																																												if(C){
-
-																																												}
-																																												else{
 																																													if(C){
-
-																																													}
-																																													else{
 																																														if(C){
 																																															if(C){
-
-																																															}
-																																															else{
 																																																if(C){
-
-																																																}
-																																																else{
 																																																	if(C){
 																																																		if(C){
-
-																																																		}
-																																																		else{
 																																																			if(C){
 																																																				if(C){
 
 																																																				}
-																																																				else{
-																																																					if(C){
-																																																						if(C){
-																																																							if(C){
-																																																								if(C){
-
-																																																								}
-																																																								else{
-																																																									if(C){
-																																																										if(C){
-																																																											if(C){
-																																																												if(C){
-																																																													if(C){
-
-																																																													}
-																																																													else{
-																																																														if(C){
-
-																																																														}
-																																																														else{
-																																																															if(C){
-
-																																																															}
-																																																															else{
-																																																																if(C){
-
-																																																																}
-																																																																else{
-																																																																	if(C){
-																																																																		if(C){
-
-																																																																		}
-																																																																		else{
-																																																																			if(C){
-
-																																																																			}
-																																																																			else{
-																																																																				if(C){
-
-																																																																				}
-																																																																				else{
-																																																																					if(C){
-
-																																																																					}
-																																																																					else{
-																																																																						if(C){
-																																																																							if(C){
-																																																																								if(C){
-
-																																																																								}
-																																																																								else{
-																																																																									if(C){
-
-																																																																									}
-																																																																									else{
-																																																																										if(C){
-																																																																											if(C){
-
-																																																																											}
-																																																																											else{
-																																																																												if(C){
-																																																																													if(C){
-
-																																																																													}
-																																																																													else{
-																																																																														if(C){
-
-																																																																														}
-																																																																														else{
-																																																																															if(C){
-																																																																																if(C){
-
-																																																																																}
-																																																																																else{
-																																																																																	if(C){
-																																																																																		if(C){
-
-																																																																																		}
-																																																																																		else{
-																																																																																			if(C){
-																																																																																				if(C){
-
-																																																																																				}
-																																																																																				else{
-																																																																																					if(C){
-																																																																																						if(C){
-																																																																																							if(C){
-
-																																																																																							}
-																																																																																							else{
-																																																																																								if(C){
-																																																																																									if(C){
-
-																																																																																									}
-																																																																																									else{
-																																																																																										if(C){
-																																																																																											if(C){
-
-																																																																																											}
-																																																																																											else{
-																																																																																												if(C){
-																																																																																													if(C){
-
-																																																																																													}
-																																																																																													else{
-																																																																																														if(C){
-																																																																																															if(C){
-
-																																																																																															}
-																																																																																															else{
-																																																																																																if(C){
-
-																																																																																																}
-																																																																																																else{
-																																																																																																	if(C){
-																																																																																																		if(C){
-																																																																																																			if(C){
-
-																																																																																																			}
-																																																																																																			else{
-																																																																																																				if(C){
-
-																																																																																																				}
-																																																																																																			}
-																																																																																																		}
-																																																																																																	}
-																																																																																																}
-																																																																																															}
-																																																																																														}
-																																																																																													}
-																																																																																												}
-																																																																																											}
-																																																																																										}
-																																																																																									}
-																																																																																								}
-																																																																																							}
-																																																																																						}
-																																																																																					}
-																																																																																				}
-																																																																																			}
-																																																																																		}
-																																																																																	}
-																																																																																}
-																																																																															}
-																																																																														}
-																																																																													}
-																																																																												}
-																																																																											}
-																																																																										}
-																																																																									}
-																																																																								}
-																																																																							}
-																																																																						}
-																																																																					}
-																																																																				}
-																																																																			}
-																																																																		}
-																																																																	}
-																																																																}
-																																																															}
-																																																														}
-																																																													}
-																																																												}
-																																																											}
-																																																										}
-																																																									}
-																																																								}
-																																																							}
-																																																						}
-																																																					}
-																																																				}
 																																																			}
+																																																		}
+																																																	}
+																																																}
+																																																else{
+																																																	if(C){
+
+																																																	}
+																																																}
+																																															}
+																																														}
+																																														else{
+																																															if(C){
+																																																if(C){
+																																																	if(C){
+																																																		if(C){
+
+																																																		}
+																																																	}
+																																																}
+																																															}
+																																														}
+																																													}
+																																												}
+																																												else{
+																																													if(C){
+																																														if(C){
+																																															if(C){
+																																																if(C){
+																																																	if(C){
+																																																		if(C){
+
 																																																		}
 																																																	}
 																																																}
@@ -313,9 +140,55 @@ if(C){
 																																								}
 																																							}
 																																						}
+																																						else{
+																																							if(C){
+																																								if(C){
+
+																																								}
+																																							}
+																																						}
 																																					}
 																																				}
 																																			}
+																																		}
+																																	}
+																																}
+																																else{
+																																	if(C){
+																																		if(C){
+																																			if(C){
+																																				if(C){
+
+																																				}
+																																			}
+																																		}
+																																	}
+																																}
+																															}
+																														}
+																														else{
+																															if(C){
+																																if(C){
+																																	if(C){
+																																		if(C){
+																																			if(C){
+
+																																			}
+																																		}
+																																	}
+																																}
+																															}
+																														}
+																													}
+																												}
+																												else{
+																													if(C){
+																														if(C){
+																															if(C){
+																																if(C){
+																																	if(C){
+																																		if(C){
+
 																																		}
 																																	}
 																																}
@@ -335,6 +208,23 @@ if(C){
 																		}
 																	}
 																}
+																else{
+																	if(C){
+																		if(C){
+																			if(C){
+																				if(C){
+																					if(C){
+																						if(C){
+																							if(C){
+
+																							}
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
 															}
 														}
 													}
@@ -345,7 +235,25 @@ if(C){
 								}
 							}
 						}
+						else{
+							if(C){
+								if(C){
+
+								}
+							}
+						}
 					}
+				}
+			}
+		}
+	}
+}
+else{
+	if(C){
+		if(C){
+			if(C){
+				if(C){
+
 				}
 			}
 		}
