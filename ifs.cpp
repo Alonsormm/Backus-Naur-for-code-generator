@@ -128,7 +128,6 @@ void generarTxt(string &cadenaFinal, double i, Mat &image)
     int row, col = 0;
     double tabulaciones = 0;
     std::ofstream outfile("ifs.txt", std::ofstream::out);
-    namedWindow("A_good_name", WINDOW_AUTOSIZE);
 
     for (int j = 0; j < cadenaFinal.size(); j++)
     {
@@ -200,7 +199,6 @@ void generarTxt(string &cadenaFinal, double i, Mat &image)
     rotate(image, image, ROTATE_90_COUNTERCLOCKWISE);
 
     imwrite("imagen.jpg", image);
-    destroyWindow("A_good_name");
 }
 
 int main()
