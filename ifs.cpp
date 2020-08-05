@@ -4,7 +4,8 @@
 #include <fstream>
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui/highgui.hpp>
-#define MAXIMO 100
+#include <opencv2/videoio.hpp>
+#define MAXIMO 500
 using namespace std;
 using namespace cv;
 
@@ -42,10 +43,16 @@ void generarCadena(string &cadenaFinal, double &i)
         {
             if (cadenaFinal[i] == 'A')
             {
-                random = rand() % 2;
-                if (random)
+                random = rand() % 3;
+                if (random == 0)
                 {
                     cadenaFinal.replace(i, 1, "(;eS)");
+                    parentesisSaltado++;
+                    i += 4;
+                }
+                else if (random == 1)
+                {
+                    cadenaFinal.replace(i, 1, "(;wS)");
                     parentesisSaltado++;
                     i += 4;
                 }
@@ -155,6 +162,15 @@ void generarTxt(string &cadenaFinal, double i, Mat &image)
             value2 = 0;
             value3 = 255;
             outfile << "\n" + generarCadenaIfs(tabulaciones) + "else{\n";
+            tabulaciones += 1;
+        }
+        else if (cadenaFinal[j] == 'w')
+        {
+
+            value1 = 255;
+            value2 = 200;
+            value3 = 255;
+            outfile << "\n" + generarCadenaIfs(tabulaciones) + "while{\n";
             tabulaciones += 1;
         }
         else if (cadenaFinal[j] == ')')
